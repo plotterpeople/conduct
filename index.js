@@ -9,7 +9,7 @@ app.use(require('cors')())
 app.use(require('body-parser').json())
 app.use(require('body-parser').urlencoded({ extended: false }))
 
-const mentions = ' <@nornagon> <@Kyle Stetz>'
+const mentions = ' <@nornagon> <@UF1KBQWS3>'
 app.use(function (req, res) {
   let body = req.body.Body || req.body.body || req.body.description
 
